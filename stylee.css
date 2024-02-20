@@ -11,3 +11,14 @@ body{
     min-height: 100vh;
     background: cornflowerblue;
 }
+.warpper{
+    width: 70vmin;
+    height: 70vmin;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    background: #7087c0;
+    box-shadow: saddlebrown;
+}
