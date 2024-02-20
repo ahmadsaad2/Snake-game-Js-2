@@ -37,3 +37,40 @@ body{
     background: #b06060;
     grid-template: repeat(30,1fr)/repeat(30,1fr);
 }
+.play .food{
+    background: saddlebrown;
+}
+.play .head{
+    background: darkgray;
+
+}
+.control{
+    display: none;
+    justify-content: space-between;
+}
+.control i{
+    padding: 25px 0;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #b06160;
+    width: calc(100%/4);
+    cursor: pointer;
+    border-right: 1px solid #7087c0;
+}
+@media screen and (max-width: 800px) {
+    .wrapper {
+        width: 90vmin;
+        height: 115vmin;
+    }
+    .game-detail {
+        font-size: 1rem;
+        padding: 15px 27px;
+    }
+    .control {
+        display: flex;
+    }
+    .control i {
+        padding: 15px 0;
+        font-size: 1rem;
+    }
+}
