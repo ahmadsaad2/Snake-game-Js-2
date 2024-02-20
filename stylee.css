@@ -22,3 +22,18 @@ body{
     background: #7087c0;
     box-shadow: saddlebrown;
 }
+.game-detail{
+    color: red;
+    font-weight: 500;
+    font-size: 2rem;
+    padding: 20px 26px;
+    display: flex;
+    justify-content: space-between;
+}
+.play{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    background: #b06060;
+    grid-template: repeat(30,1fr)/repeat(30,1fr);
+}
