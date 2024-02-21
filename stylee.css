@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
 *{
     margin:0;
     padding: 0;
@@ -9,7 +11,7 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: cornflowerblue;
+    background: #183b28;
 }
 .warpper{
     width: 70vmin;
@@ -19,13 +21,13 @@ body{
     flex-direction: column;
     justify-content: center;
     border-radius: 5px;
-    background: #7087c0;
+    background: #add770;
     box-shadow: saddlebrown;
 }
 .game-detail{
-    color: red;
-    font-weight: 500;
-    font-size: 2rem;
+    color: #000000;
+    font-weight: 200;
+    font-size: 1rem;
     padding: 20px 26px;
     display: flex;
     justify-content: space-between;
@@ -34,15 +36,19 @@ body{
     height: 100%;
     width: 100%;
     display: grid;
-    background: #b06060;
     grid-template: repeat(30,1fr)/repeat(30,1fr);
+    background-image: url("ad.jpg");
+    background-size: cover; /* or contain, depending on your preference */
+    background-repeat: no-repeat;
 }
 .play .food{
-    background: saddlebrown;
-}
+    background-image: url("app.png");
+    background-size: cover; /* or contain, depending on your preference */
+    background-repeat: no-repeat;}
 .play .head{
-    background: darkgray;
-
+    background-image: url("sd.png");
+    background-size: cover; /* or contain, depending on your preference */
+    background-repeat: no-repeat;
 }
 .control{
     display: none;
@@ -52,7 +58,7 @@ body{
     padding: 25px 0;
     text-align: center;
     font-size: 1.3rem;
-    color: #b06160;
+    color: #de2d2a;
     width: calc(100%/4);
     cursor: pointer;
     border-right: 1px solid #7087c0;
